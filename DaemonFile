@@ -1,7 +1,7 @@
-NAME = UptimeKuma
-INTERNAL_PORT = 3001
+NAME = phpmyadmin
+INTERNAL_PORT = 80
 PROTOCOL = tcp
-IMAGE = elestio/uptime-kuma:latest
+IMAGE = phpmyadmin:latest
 ENV_REQUESTED = {
-    "ADMIN_PASSWORD": "password"
+    "text": "string"
 }
