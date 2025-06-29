@@ -1,0 +1,10 @@
+NAME = MySQL
+INTERNAL_PORT = 3306
+PROTOCOL = tcp
+IMAGE = mysql:latest
+ENV_REQUESTED = {
+    "MYSQL_ROOT_PASSWORD": "string",
+    "MYSQL_DATABASE": "string",
+    "MYSQL_USER": "string",
+    "MYSQL_PASSWORD": "string"
+}
