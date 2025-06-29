@@ -1,10 +1,7 @@
-NAME = MySQL
-INTERNAL_PORT = 3306
+NAME = UptimeKuma
+INTERNAL_PORT = 3001
 PROTOCOL = tcp
-IMAGE = mysql:latest
+IMAGE = elestio/uptime-kuma:latest
 ENV_REQUESTED = {
-    "MYSQL_ROOT_PASSWORD": "string",
-    "MYSQL_DATABASE": "string",
-    "MYSQL_USER": "string",
-    "MYSQL_PASSWORD": "string"
+    "ADMIN_PASSWORD": "password"
 }
