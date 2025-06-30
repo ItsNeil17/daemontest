@@ -5,3 +5,5 @@ IMAGE = phpmyadmin:latest
 ENV_REQUESTED = {
     "text": "string"
 }
+DESCRIPTION = "kushal is a nigga"
+IMAGE_URL = https://willofsteel.me/img/logo.png
