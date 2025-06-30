@@ -1,9 +1,11 @@
-NAME = phpmyadmin
+NAME = stuff
 INTERNAL_PORT = 80
 PROTOCOL = tcp
-IMAGE = phpmyadmin:latest
+IMAGE = flask
 ENV_REQUESTED = {
     "text": "string"
 }
 DESCRIPTION = "kushal is a nigga"
 IMAGE_URL = https://willofsteel.me/img/logo.png
+COPY = True
+RUN_COMMAND = "python3 main.py --host 0.0.0.0 --port 80"
